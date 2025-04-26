@@ -70,12 +70,6 @@ This guide provides the necessary files and instructions to get your PlutoSDR up
 - **SDR++ Official GitHub Releases**:  
   [https://github.com/AlexandreRouma/SDRPlusPlus/releases/tag/nightly](https://github.com/AlexandreRouma/SDRPlusPlus/releases/tag/nightly)
 
-- **SDRangel (Advanced SDR software alternative)**:  
-  [https://github.com/f4exb/sdrangel/releases](https://github.com/f4exb/sdrangel/releases)
-
-- **PlutoSDR Plugin for SDRSharp**:  
-  [https://github.com/Manawyrm/sdrsharp-plutosdr](https://github.com/Manawyrm/sdrsharp-plutosdr)
-
 - **Helpful YouTube Tutorial (PlutoSDR)**:  
   [https://www.youtube.com/watch?v=HDEegX9IoUg](https://www.youtube.com/watch?v=HDEegX9IoUg)
 
@@ -83,7 +77,7 @@ This guide provides the necessary files and instructions to get your PlutoSDR up
 
 ## 🛠 Pro Tips:
 
-- To use PlutoSDR with SDR++ or SDRSharp, install libiio and make sure the device shows up properly in the driver.
+- To use PlutoSDR with SDR++, install libiio and make sure the device shows up properly in the driver.
 - If you encounter connection issues, verify your USB cable is high-quality and supports data (not just charging).
 - Use an external clock source or GPSDO if you require very high frequency accuracy.
 - SDR++ nightly builds include many bug fixes and new device support - highly recommended for advanced users.
