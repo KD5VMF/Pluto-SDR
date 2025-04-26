@@ -56,13 +56,37 @@ This guide provides the necessary files and instructions to get your PlutoSDR up
 
 ---
 
-## 🚰 Additional Resources:
+## 🚰 Additional Resources and Useful Links:
 
-- Official Analog Devices PlutoSDR Wiki:  
+- **Official Analog Devices PlutoSDR Wiki**:  
   [https://wiki.analog.com/university/tools/pluto](https://wiki.analog.com/university/tools/pluto)
 
-- SDR++ Official GitHub (latest source and Windows builds):  
-  [https://github.com/AlexandreRouma/SDRPlusPlus](https://github.com/AlexandreRouma/SDRPlusPlus)
+- **LibreSDR GitHub (Firmware / Upgrades)**:  
+  [https://github.com/hz12opensource/libresdr](https://github.com/hz12opensource/libresdr)
+
+- **Analog Devices IIO Oscilloscope (GUI for SDR control)**:  
+  [https://github.com/analogdevicesinc/iio-oscilloscope/releases](https://github.com/analogdevicesinc/iio-oscilloscope/releases)
+
+- **SDR++ Official GitHub Releases**:  
+  [https://github.com/AlexandreRouma/SDRPlusPlus/releases/tag/nightly](https://github.com/AlexandreRouma/SDRPlusPlus/releases/tag/nightly)
+
+- **SDRangel (Advanced SDR software alternative)**:  
+  [https://github.com/f4exb/sdrangel/releases](https://github.com/f4exb/sdrangel/releases)
+
+- **PlutoSDR Plugin for SDRSharp**:  
+  [https://github.com/Manawyrm/sdrsharp-plutosdr](https://github.com/Manawyrm/sdrsharp-plutosdr)
+
+- **Helpful YouTube Tutorial (PlutoSDR)**:  
+  [https://www.youtube.com/watch?v=HDEegX9IoUg](https://www.youtube.com/watch?v=HDEegX9IoUg)
+
+---
+
+## 🛠 Pro Tips:
+
+- To use PlutoSDR with SDR++ or SDRSharp, install libiio and make sure the device shows up properly in the driver.
+- If you encounter connection issues, verify your USB cable is high-quality and supports data (not just charging).
+- Use an external clock source or GPSDO if you require very high frequency accuracy.
+- SDR++ nightly builds include many bug fixes and new device support - highly recommended for advanced users.
 
 ---
 
