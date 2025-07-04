@@ -9,7 +9,7 @@ This guide provides the necessary files and instructions to get your PlutoSDR up
 
 | File | Description |
 |:-----|:------------|
-| `baseclock_cpu750_ddr525.tar.gz` | Full SD card image for the PlutoSDR. Copy this to a FAT32-formatted SD card and insert it into the PlutoSDR to boot. |
+| `baseclock_cpu750_ddr525.tar.gz` | Full SD card image for the PlutoSDR. Extract this to a FAT32-formatted SD card and insert it into the PlutoSDR to boot. |
 | `sdrpp_windows_x64.zip` | A ready-to-use Windows SDR program similar to SDR#, but with built-in support for PlutoSDR. Just unzip and run. |
 | `PlutoSDR-M2k-USB-Drivers.exe` | Official Analog Devices drivers for PlutoSDR on Windows systems. Required for proper USB connection. |
 | `libiio-0.26.ga0eca0d2-setup.exe` | The libiio runtime installer for Windows. Required to allow SDR software to communicate with the PlutoSDR through USB. |
