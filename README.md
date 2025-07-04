@@ -77,6 +77,7 @@ This guide provides the necessary files and instructions to get your PlutoSDR up
 
 ## 🛠 Pro Tips:
 
+- LibreSDR default login: Username: root - Password: analog
 - To use PlutoSDR with SDR++, install libiio and make sure the device shows up properly in the driver.
 - If you encounter connection issues, verify your USB cable is high-quality and supports data (not just charging).
 - Use an external clock source or GPSDO if you require very high frequency accuracy.
